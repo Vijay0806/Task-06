@@ -1,0 +1,149 @@
+a.Circle() Method.
+class Circle{
+     constructor(radios,colour){
+        this.radios=radios;
+        this.colour=colour;
+     }
+     Circle(){
+         
+         return 
+     }
+ }
+ var Car=new Circle((1).toFixed(1),"red");
+
+
+b.Circle(radius) method.
+class Circle{
+     constructor(radius,colour){
+        this.radius=radius;
+        this.colour=colour;
+     }
+     Circle(radius){
+         this.radius=radius;
+         return radius;
+     }
+ }
+ var Car=new Circle((1).toFixed(1),"red");
+ console.log(Car.Circle((2).toFixed(1)));
+
+c.Circle(radius,colour) Method.
+
+class Circle{
+     constructor(radius,colour){
+        this.radius=radius;
+        this.colour=colour;
+        
+     }
+     Circle(radius,colour){
+         this.radius=radius;
+         this.colour=colour;
+         var a=radius+" "+colour
+         return a;
+     }
+ }
+ var Car=new Circle((1).toFixed(1),"red");
+ console.log(Car.Circle((2).toFixed(1),"blue"));
+
+d.getRadius() method.
+
+class Circle{
+     constructor(radius,colour){
+        this.radius=radius;
+        this.colour=colour;
+        
+     }
+     getRadius(){
+        
+         return this.radius;
+     }
+ }
+ var Car=new Circle((1).toFixed(1),"red");
+ console.log(Car.getRadius());
+
+e.setRadius() Method.
+      class Circle{
+     constructor(radius,colour){
+        this.radius=radius;
+        this.colour=colour;
+     }
+     setRadius(radius){
+     this.radius=radius;
+        return ;
+     }
+ }
+ var Car=new Circle((1).toFixed(1));
+ Car.setRadius((2).toFixed(1));
+
+f.getColour() Method.
+
+class Circle{
+     constructor(radius,colour){
+        this.radius=radius;
+        this.colour=colour;
+     }
+     getColour(){
+       
+        return this.colour;
+     }
+ }
+ var Car=new Circle((1).toFixed(1),"red");
+ console.log(Car.getColour());
+
+g.setColour(string) method.
+
+class Circle{
+     constructor(radius,colour){
+        this.radius=radius;
+        this.colour=colour;
+     }
+     setColour(colour){
+       this.colour=colour;
+        return ;
+     }
+ }
+ var Car=new Circle((1).toFixed(1),"red");
+ Car.setColour("blue");
+
+h.toString()method .
+
+class Circle{
+     constructor(radius,colour){
+        this.radius=radius;
+        this.colour=colour;
+     }
+     toString(){
+        return "Circle[radius:"+this.radius+" "+"colour:"+this.colour+"]" ;
+     }
+ }
+ var Car=new Circle((1).toFixed(1),"red");
+console.log(Car.toString());
+
+i.getArea();
+
+class Circle{
+     constructor(radius,colour){
+        this.radius=radius;
+        this.colour=colour;
+     }
+     getArea(){
+         var a=Math.PI*Math.pow(this.radius,2);
+        return a;
+     }
+ }
+ var Car=new Circle((1).toFixed(1),"red");
+console.log(Car.getArea());
+
+j.getCircumference() method.
+
+class Circle{
+     constructor(radius,colour){
+        this.radius=radius;
+        this.colour=colour;
+     }
+     getCircumbference(){
+         var a=2*Math.PI*this.radius;
+        return a;
+     }
+ }
+ var Car=new Circle((1).toFixed(1),"red");
+console.log(Car.getCircumbference());

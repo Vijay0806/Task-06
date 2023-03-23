@@ -1,0 +1,37 @@
+1.Write a “person” class to hold all the details.
+
+  class person{
+        constructor(name,age,gender,degree){
+            this.name=name;
+            this.age=age;
+            this.gender=gender;
+            this.degree=degree;
+        }
+        
+    }
+    var c1=new person("arun",24,"male","bacholar of engineering");
+   
+    console.log(c1);
+
+2.write a class to calculate the uber price.
+
+   class Cal{
+        constructor(company,price1){
+           this.company=company;
+           this.price1=price1;
+         
+           
+        }
+        cal(){
+            var sum=0;
+            if(this.company=="uber"){
+             sum=this.price1*30;
+                
+            }
+            return sum;
+        }
+        
+    }
+    var c1=new Cal("uber",2);
+      console.log(c1.cal());
+ 
